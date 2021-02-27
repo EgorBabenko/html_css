@@ -1,0 +1,56 @@
+.container {
+	width: 1185px;
+	margin: 0 auto;
+}
+.header {
+	display: grid;
+	grid-template-columns: 58px 25px 84px 635px 57px 37px 47px 37px 63px 38px 100px;
+	grid-template-rows: 14px 9.5px 2.5px 17px 4.5px 10.5px;
+	grid-template-areas:
+		"logo . . . . . . . . . ."
+		"logo . logotext . . . . . . . ."
+		"logo . logotext . . . . . . . contact"
+		"logo . logotext . service . client . team . contact"
+		"logo . . . . . . . . . contact"
+		"logo . . . . . . . . . .";
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+}
+.header__logo {
+	grid-area: logo;
+	background-image: url(../images/logo.png);
+}
+.header__logotext {
+	grid-area: logotext;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+.header__menu {
+	font-size: 14px;
+	line-height: 16px;
+	color: #202020;
+}
+.header__menu_service {
+	grid-area: service;
+}
+.header__menu_client {
+	grid-area: client;
+}
+.header__menu_team {
+	grid-area: team;
+}
+.header__menu_contact {
+	grid-area: contact;
+	display: grid;
+	width: 100px;
+	height: 24px;
+	background: #5528FF;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 16px;
+	align-items: center;
+	justify-content: center;
+}

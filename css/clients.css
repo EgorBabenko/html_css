@@ -1,0 +1,65 @@
+.clients {
+	display: grid;
+	grid-template-columns: 53px 177px 138px 149px 149px 155px 132px 182px 50px;
+	grid-template-rows: 54px 55px 39px 54px 53px;
+	margin-top: 54px;
+	grid-template-areas: 
+		". one . two . three . four ."
+		". . . . . . . . ."
+		". five . six . seven . eight ."
+		". . . . . . . . ."
+		". nine . ten . eleven . twelve .";
+}
+.clients__img {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.clients__img_1 {
+	background-image: url(../images/clients/client1.png);
+	grid-area: one;
+}
+.clients__img_2 {
+	background-image: url(../images/clients/client2.png);
+	grid-area: two;
+}
+.clients__img_3 {
+	background-image: url(../images/clients/client3.png);
+	grid-area: three;
+}
+.clients__img_4 {
+	background-image: url(../images/clients/client4.png);
+	grid-area: four;
+}
+.clients__img_5 {
+	background-image: url(../images/clients/client5.png);
+	grid-area: five;
+}
+.clients__img_6 {
+	background-image: url(../images/clients/client6.png);
+	grid-area: six;
+}
+.clients__img_7 {
+	background-image: url(../images/clients/client7.png);
+	grid-area: seven;
+}
+.clients__img_8 {
+	background-image: url(../images/clients/client8.png);
+	grid-area: eight;
+}
+.clients__img_9 {
+	background-image: url(../images/clients/client9.png);
+	grid-area: nine;
+}
+.clients__img_10 {
+	background-image: url(../images/clients/client10.png);
+	grid-area: ten;
+}
+.clients__img_11 {
+	background-image: url(../images/clients/client11.png);
+	grid-area: eleven;
+}
+.clients__img_12 {
+	background-image: url(../images/clients/client12.png);
+	grid-area: twelve;
+}

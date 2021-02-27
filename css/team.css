@@ -1,0 +1,101 @@
+.team {
+	margin-top: 101px;
+	display: grid;
+	grid-template-columns: 100px 35px 132px 138px 100px 35px 131px 139px 100px 35px 132px auto;
+	grid-template-rows: 100px 60px 100px 60px 100px;
+	grid-template-areas:
+		"vadim . vadimtext . serg . sergtext . and . andtext . "
+		". . . . . . . . . . . . "
+		"alex . alextext . agnesh . agneshtext . dim . dimtext . "
+		". . . . . . . . . . . . "
+		"artyom . artyomtext . evg . evgtext . tom . tomtext . ";
+}
+.team__foto {
+	border-radius: 50%;
+	background-size: contain;
+	background-position: center;
+}
+.team__foto_vadim {
+	background-image: url(../images/team/vadim.png);
+	grid-area: vadim;
+}
+.team__foto_serg {
+	background-image: url(../images/team/sergey.png);
+	grid-area: serg;
+}
+.team__foto_and {
+	background-image: url(../images/team/andrey.png);
+	grid-area: and;
+}
+.team__foto_alex {
+	background-image: url(../images/team/Alex.png);
+	grid-area: alex;
+}
+.team__foto_agnesh {
+	background-image: url(../images/team/agneshka.png);
+	grid-area: agnesh;
+}
+.team__foto_dim {
+	background-image: url(../images/team/dmitriy.png);
+	grid-area: dim;
+}
+.team__foto_artyom {
+	background-image: url(../images/team/artyom.png);
+	grid-area: artyom;
+}
+.team__foto_evg {
+	background-image: url(../images/team/evgeny.png);
+	grid-area: evg;
+}
+.team__foto_tom {
+	background-image: url(../images/team/tom.png);
+	grid-area: tom;
+}
+.team__name {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 32px;
+	color: #202020;
+}
+.team__position {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #B2B2B2;
+}
+.team__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.team__card_vadim {
+	grid-area: vadimtext;
+}
+.team__card_serg {
+	grid-area: sergtext;
+}
+.team__card_and {
+	grid-area: andtext;
+}
+.team__card_alex {
+	grid-area: alextext;
+}
+.team__card_agnesh {
+	grid-area: agneshtext;
+}
+.team__card_dim {
+	grid-area: dimtext;
+}
+.team__card_artyom {
+	grid-area: artyomtext;
+}
+.team__card_evg {
+	grid-area: evgtext;
+}
+.team__card_tom {
+	grid-area: tomtext;
+}

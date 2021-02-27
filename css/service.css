@@ -1,0 +1,74 @@
+.service {
+	margin-top: 101px;
+	display: grid;
+	grid-template-columns: 11px 23px 34px 23px 44px 196px 71px 25px 258px 24px 40px 17px 50px 230px 7px 10px 62px;
+	grid-template-rows: 28px 5px 17px 38px 23px 82px 23px 10px 17px 34px 27px;
+	grid-template-areas: 
+	". . . . . mobileHead mobileHead . . . . . . webHead webHead . ."
+	". . phone . . mobileHead mobileHead . . desktop desktop desktop . webHead webHead . ."
+	". . phone . . . . . . desktop desktop desktop . . . . ."
+	". . phone . . mobileText mobileText mobileText . desktop desktop desktop . webText webText webText ."
+	". . . . . mobileText mobileText mobileText . . . . . webText webText webText ."
+	". . . . . . . . . . . . . . . . ."
+	". . . . . productHead . . . . . . . qualityHead . . ."
+	". new new new . productHead . . . . union . . qualityHead . . ."
+	". new new new . . . . . . union . . . . . ."
+	". new new new . productText productText productText . . union . . qualityText qualityText qualityText ."
+	". . . . . productText productText productText . . . . . qualityText qualityText qualityText .";
+}
+.service__title {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+}
+.service__title_mobile {
+	grid-area: mobileHead;
+}
+.service__title_product {
+	grid-area: productHead;
+}
+.service__title_web {
+	grid-area: webHead;
+}
+.service__title_quality {
+	grid-area: qualityHead;
+}
+.service__text {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #B2B2B2;
+	text-align: left;
+}
+.service__text_mobile {
+	grid-area: mobileText;
+}
+.service__text_product {
+	grid-area: productText;
+}
+.service__text_web {
+	grid-area: webText;
+}
+.service__text_quality {
+	grid-area: qualityText;
+}
+.service__new {
+	grid-area: new;
+	background-image: url(../images/services/new.png);
+}
+.service__phone {
+	grid-area: phone;
+	background-image: url(../images/services/phone.png);
+}
+.service__desktop {
+	grid-area: desktop;
+	background-image: url(../images/services/desktop.png);
+}
+.service__union {
+	grid-area: union;
+	background-image: url(../images/services/Union.png);
+}

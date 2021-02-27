@@ -1,0 +1,42 @@
+.rectangle {
+	width: 100%;
+	display: grid;
+	grid-template-rows: 17px;
+	grid-template-areas: "left . text . center right";
+	align-items: center;
+}
+.rectangle_first {
+	grid-template-columns: auto 19px 92px 39px 1054px auto;
+	margin-top: 100px;
+}
+.rectangle_second {
+	grid-template-columns: auto 19px 84px 47px 1054px auto;
+	margin-top: 102px;
+}
+.rectangle_third {
+	grid-template-columns: auto 19px 69px 62px  1054px auto;
+	margin-top: 109px;
+}
+.rectangle__line {
+	width: 100%;
+	height: 0.5px;
+	background: #C2C2C2;
+}
+.rectangle__line_left {
+	grid-area: left;
+}
+.rectangle__line_center {
+	grid-area: center;
+}
+.rectangle__line_right {
+	grid-area: right;
+}
+.rectangle__text {
+	grid-area: text;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #C2C2C2;
+}
